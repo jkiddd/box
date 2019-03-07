@@ -1,0 +1,45 @@
+@mixin box-shadow($param) {
+    box-shadow:$param;
+    -webkit-box-shadow:$param;
+    -moz-box-shadow:$param;
+}
+
+@mixin clearfix{
+    &:before, &:after {
+        content:"";
+        display: table;        
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin inline-block($param: top) {
+	display: inline-block;
+	vertical-align: $param;
+}
+
+// на шрифт 
+@mixin roboto($style: regular) {
+    @if $style == regular {
+        font-family: 'robotoregular',Tohoma, sans-serif;
+    }
+
+    @if $style == bold {
+        font-family: 'robotobold', Tohoma, sans-serif;
+        font-weight: bold;
+    }
+
+    @if $style == light {
+        font-family: 'robotolight',Tohoma,sans-serif;
+        font-weight: 300;
+    }
+
+    @if $style == medium {
+        font-family: 'robotomedium',Tohoma,sans-serif;
+    }
+    @if $style == ligthitalic {
+        font-family: 'robotoitalic',Tohoma,sans-serif;
+    }
+}
+

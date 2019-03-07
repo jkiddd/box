@@ -1,0 +1,106 @@
+
+.cardboard {
+    
+    background: url('../img/foto/baground1.jpg') center no-repeat;
+    background-size: cover;    
+    position: relative;
+    z-index: 0;
+    &::before{
+        content: '';
+        position: absolute;
+        background-color: rgba(#000000, .5);
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+ }
+.cardboard__wrap {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+.cardboard__pic {     
+    margin-right: 30px; 
+    // width: 488px;
+    
+    // position: relative;                
+    // &::before {
+    //     content: '';  
+    //     position: absolute;             
+    //     width: 270px;
+    //     height: 270px;
+    //     border: 1px solid #777a7c;
+    //     border-radius: 50%;
+    //     z-index: -1; 
+    //     left: 50%;
+    //     margin-left: -135px;  }        
+}
+.cardboard__img {
+    // max-width: 100%;
+    // max-height: 100%;    
+    // object-fit: cover;
+    width: 387px;
+    height: 380px;
+    display: block;
+    object-fit: contain;           
+}
+.product {
+    margin-bottom: 15px;
+}
+.product__title {
+    @include roboto(bold);
+    color: #fff;
+    font-size: 40px;
+}
+.product__subtitle {
+    font-size: 28px;
+    @include roboto(regular);
+    color: #fff;
+}
+
+.form__desc {
+    background: rgba(#fff,0.2);
+    padding: 20px;
+}
+.form__text {
+    font-size: 20px;
+    color: #fff;
+    width: 420px;
+    margin-bottom: 15px;
+}
+.text-big {
+    text-transform: uppercase;
+    @include roboto(bold);
+}
+.form {
+    display: flex;
+    margin-bottom: 10px;
+    }
+.form__input-tel {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 14px;
+    font-size: 14px;
+    vertical-align: middle;
+    outline: none;
+    flex-basis: 50%;
+    margin-right: 10px;    
+   &:focus {
+       border-color: $color-btn;
+     
+   }
+}
+.button--no-icon::before{ 
+    content: '';
+    background: none;
+    width: 0;
+    height: 0;
+    display: none;    
+    margin-right: 0;   
+
+} 
+.small__text {
+    color: #fff;
+    font-size: 14px;
+}

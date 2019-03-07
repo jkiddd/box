@@ -1,0 +1,20 @@
+// // var
+$body-color:#fff;
+$footer-color:#1b1b1b;
+// цвет кноки
+$color-btn: #ff9d00;
+// цвет текста
+$color-text:#373737;
+// цвет заглавного цвета
+$color-title:#ff9d00;
+// цвет секции 
+$color-serction:#f4f4f4;
+
+@import 'normalize';
+@import 'mixnin';
+@import 'fonts';
+@import 'adjusment';
+@import 'header';
+@import 'cardboard';
+
+

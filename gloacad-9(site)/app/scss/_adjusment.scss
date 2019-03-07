@@ -1,0 +1,66 @@
+/* var */
+$footer-heigth:86px;
+$conteiner-min-width:950px;
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+body {
+	font-size: 14px;
+	line-height: 1.42;
+	-webkit-font-smoothing: antialiased;
+	background: $body-color;    
+    @include roboto(light);
+    // @include helvetica(roman);
+    // font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+// если нужно убираем подчеркивание или закаметируем, если нет!!!!
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: $conteiner-min-width;
+}
+
+.wrapper {
+    overflow: hidden;
+    // min-width: $conteiner-min-width+20px;
+    min-height: 100%;
+}
+
+.wrapper:after{
+    content: "";
+    display: block;
+    height: $footer-heigth;
+}
+
+// .clearfix:after {
+//     content: "";
+//     display: block;
+//     clear: both;
+// }
+
+.footer {
+background-color: $footer-color;
+height: $footer-heigth;
+margin-top: -$footer-heigth;
+// min-width: $conteiner-min-width+20px;
+}

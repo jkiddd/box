@@ -1,0 +1,61 @@
+.header {
+    margin-bottom: 20px;
+}
+.header__wrap {
+    display: flex;
+}
+.header__wrap {
+    padding-top: 50px;
+}
+.header__logo {
+    width: 25%;
+}
+.header__logo-wrap {
+    width: 195px;
+}
+.header__img {
+    max-width: 100%;
+    display: block;
+}
+.header__telephone {
+    display: flex;
+    @include roboto(medium);
+    font-size: 22px;        
+}
+.header__phone {
+    color: $color-text;
+    border-left: 1px solid #cfcfd0;
+    padding-left: 13px;
+    padding-right: 13px;
+    &:first-child {
+        border-left:none;
+    }
+}
+.header__rigth {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button {
+    padding: 14px 18px;
+    border-radius: 4px;
+    background: $color-btn;
+    border: 1px solid $color-btn;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    @include roboto(medium);
+    // margin-left: 30px;
+    &::before {
+        content: "";
+           width: 23px;
+           height: 23px;
+           background: url('../img/icons/tel.png') no-repeat; 
+           display: block;
+           @include inline-block(middle);
+           margin-right: 5px;
+           
+    }
+}
