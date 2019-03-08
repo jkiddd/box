@@ -631,4 +631,19 @@ ul {
   color: #fff;
   font-size: 14px;
 }
+
+.popup {
+  position: fixed;
+  display: block;
+  top: 0;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.popup__title {
+  font-size: 21px;
+  font-family: 'robotomedium',Tohoma,sans-serif;
+}
 /*# sourceMappingURL=main.css.map */
