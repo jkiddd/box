@@ -87,8 +87,7 @@
     flex-basis: 50%;
     margin-right: 10px;    
    &:focus {
-       border-color: $color-btn;
-     
+       border-color: $color-btn;     
    }
 }
 .button--no-icon::before{ 
