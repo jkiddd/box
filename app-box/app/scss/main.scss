@@ -10,11 +10,11 @@ $color-title:#ff9d00;
 // цвет секции 
 $color-serction:#f4f4f4;
 
-@import 'normalize';
-@import 'mixnin';
-@import 'fonts';
-@import 'adjusment';
-@import 'header';
-@import 'cardboard';
+@import '_misc/normalize';
+@import '_misc/mixnin';
+@import '_misc/fonts';
+@import '_misc/adjusment';
+@import 'blok/header';
+@import 'blok/cardboard';
 
 
