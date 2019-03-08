@@ -515,7 +515,6 @@ ul {
   width: 23px;
   height: 23px;
   background: url("../img/icons/tel.png") no-repeat;
-  display: block;
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
@@ -671,13 +670,15 @@ ul {
   width: 32px;
   height: 32px;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .close:hover {
   opacity: 1;
 }
 
-.close:before, .close:after {
+.close:before,
+.close:after {
   position: absolute;
   left: 15px;
   content: ' ';
@@ -696,5 +697,51 @@ ul {
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+
+.popup__desc {
+  background: url("/img/foto/popup_bg.jpg") 0 no-repeat;
+  background-size: cover;
+  padding: 35px 88px 50px 88px;
+}
+
+.popup__text {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'robotoregular',Tohoma, sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.popup__text-tel {
+  color: #e7e7e7;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.popup__form {
+  text-align: center;
+}
+
+.popup__input-tel {
+  font-size: 14px;
+  color: #373737;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 350px;
+  margin-right: 16px;
+  margin-bottom: 9px;
+}
+
+.popup__text-small {
+  text-align: center;
+  color: #e7e7e7;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
