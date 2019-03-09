@@ -17,3 +17,4 @@ $(document).ready(function(){
     $('.popup').fadeOut(300);  
   });
 });
+
