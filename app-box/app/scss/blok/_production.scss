@@ -4,17 +4,25 @@
   flex-wrap: wrap;
 }
 .production__block {
-  flex-basis: 31%;
+  flex-basis: 32%;
   background: #fff;
   margin-bottom: 30px; 
   display: flex;
-  padding: 19px 28px;
+  padding: 28px 19px;
 }
 .production__pic {
-  flex-basis: 40%;
+  width: 50px;
   margin-right: 11px;
 }
 .production__icon {
   display: flex; 
   align-items: center;
+}
+.production__desc-title{
+  font-size: 15px;
+  @include roboto(bold);
+  margin-bottom: 5px;
+}
+.production__desc-text {
+  font-size: 14px;
 }

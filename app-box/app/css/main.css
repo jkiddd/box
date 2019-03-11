@@ -797,19 +797,18 @@ ul {
 }
 
 .production__block {
-  -ms-flex-preferred-size: 31%;
-      flex-basis: 31%;
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
   background: #fff;
   margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 19px 28px;
+  padding: 28px 19px;
 }
 
 .production__pic {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  width: 50px;
   margin-right: 11px;
 }
 
@@ -820,5 +819,16 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.production__desc-title {
+  font-size: 15px;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.production__desc-text {
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
