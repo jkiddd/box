@@ -831,4 +831,76 @@ ul {
 .production__desc-text {
   font-size: 14px;
 }
+
+.title {
+  font-size: 27px;
+  text-transform: uppercase;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  background: url("/img/decor/wavy.png") center no-repeat;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.box__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box__block {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-bottom: 30px;
+}
+
+.box__inner-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.box__pic {
+  width: 295px;
+  height: 244px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.box__title {
+  font-size: 18px;
+  font-family: 'robotomedium',Tohoma,sans-serif;
+  margin-bottom: 20px;
+}
+
+.box__desc {
+  text-align: center;
+}
+
+.button-o {
+  margin-right: 12px;
+  background-color: transparent;
+}
 /*# sourceMappingURL=main.css.map */
