@@ -1,9 +1,13 @@
+.features {
+  background: $color-serction;
+}
 .numbers {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 45px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
 }
 .numbers__blok {
   flex-basis: 30%;

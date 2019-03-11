@@ -745,6 +745,10 @@ ul {
   font-size: 14px;
 }
 
+.features {
+  background: #f4f4f4;
+}
+
 .numbers {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -755,7 +759,8 @@ ul {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-top: 45px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .numbers__blok {
@@ -778,5 +783,42 @@ ul {
 .numbers__text {
   font-size: 16px;
   color: #373737;
+}
+
+.production {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.production__block {
+  -ms-flex-preferred-size: 31%;
+      flex-basis: 31%;
+  background: #fff;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 19px 28px;
+  margin-right: 11px;
+}
+
+.production__pic {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.production__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

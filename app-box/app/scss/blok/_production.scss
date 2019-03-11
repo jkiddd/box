@@ -1,0 +1,20 @@
+.production {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.production__block {
+  flex-basis: 31%;
+  background: #fff;
+  margin-bottom: 30px; 
+  display: flex;
+  padding: 19px 28px;
+}
+.production__pic {
+  flex-basis: 40%
+  margin-right: 11px;
+}
+.production__icon {
+  display: flex; 
+  align-items: center;
+}
