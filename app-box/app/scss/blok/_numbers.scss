@@ -1,0 +1,23 @@
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.numbers__blok {
+  flex-basis: 30%;
+  text-align: center;
+}
+.numbers__title {
+  color: $color-title;
+  @include roboto(bold);
+  font-size: 36px;
+}
+.square {
+  font-size: 24px;
+}
+.numbers__text {
+font-size: 16px;
+color: $color-text;
+}

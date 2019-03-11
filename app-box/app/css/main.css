@@ -744,4 +744,39 @@ ul {
   color: #e7e7e7;
   font-size: 14px;
 }
+
+.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+.numbers__blok {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: center;
+}
+
+.numbers__title {
+  color: #ff9d00;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.square {
+  font-size: 24px;
+}
+
+.numbers__text {
+  font-size: 16px;
+  color: #373737;
+}
 /*# sourceMappingURL=main.css.map */
