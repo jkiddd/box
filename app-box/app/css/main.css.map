@@ -10,7 +10,8 @@
         "../scss/blok/_header.scss",
         "../scss/blok/_cardboard.scss",
         "../scss/blok/_modal.scss",
-        "../scss/blok/_numbers.scss"
+        "../scss/blok/_numbers.scss",
+        "../scss/blok/_production.scss"
     ],
     "names": [],
     "file": "main.css"
