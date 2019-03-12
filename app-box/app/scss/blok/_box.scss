@@ -31,8 +31,7 @@
 .box__pic {
   width: 295px;
   height: 244px;
-  object-fit: contain;
-  
+  object-fit: contain;  
 }
 .box__title {
   font-size: 18px;
@@ -44,5 +43,8 @@
 }
 .button-o {
   margin-right: 12px;
-  background-color: transparent;  
+  background-color: transparent;
+  color: #c0c0c0; 
+  border-color: #c0c0c0; 
+  
 }
