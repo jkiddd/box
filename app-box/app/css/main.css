@@ -953,4 +953,37 @@ ul {
 .form__btn {
   margin-bottom: 10px;
 }
+
+.manufacturing {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  background: grey;
+}
+
+.slaider, .slaider__mini {
+  width: 500px;
+}
+
+.slaider__dsc {
+  width: 535px;
+  height: 375px;
+}
+
+.slaider__pic {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slaider__inner-pc {
+  display: block;
+  width: 116px;
+  height: 80px;
+}
+
+.slaider__mini-pic {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
 /*# sourceMappingURL=main.css.map */
