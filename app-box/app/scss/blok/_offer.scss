@@ -1,0 +1,51 @@
+.offer {
+  background: gray url('/img/foto/baground2.jpg') center no-repeat;
+  background-size: cover; 
+  text-align: center; 
+  padding-top: 63px;
+  padding-bottom: 57px; 
+}
+.bg--black {
+  position: relative;
+  z-index: 0;
+  &::before {
+    content: '';
+    display: block;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+}
+.form__input-tel--width {
+   width: 360px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.offer__title {  
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 30px;
+  width: 620px;
+  margin: 0 auto;
+}
+.offer__title span {
+  font-size: 26px;
+}
+.form__wrap-offer {
+  text-align: center;
+  width: 100%;
+}
+.form__label {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.form__btn {
+  margin-bottom: 10px;
+}
