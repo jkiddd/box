@@ -4,6 +4,9 @@
   background:grey; 
  
 }
+.manufacturing__wrap {
+  display: flex;
+}
 .slaider,.slaider__mini {
   width: 500px;
   
@@ -17,12 +20,16 @@
   max-width: 100%;
   max-height: 100%;
 }
-
+.slaider__mini {
+  
+}
 .slaider__inner-pc {
   display: block;
   width: 116px;
   height: 80px;
+  margin-left: 10px;
 }
+
 .slaider__mini-pic {
   display: block;
   max-width: 100%;

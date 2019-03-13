@@ -960,6 +960,12 @@ ul {
   background: grey;
 }
 
+.manufacturing__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .slaider, .slaider__mini {
   width: 500px;
 }
@@ -979,6 +985,7 @@ ul {
   display: block;
   width: 116px;
   height: 80px;
+  margin-left: 10px;
 }
 
 .slaider__mini-pic {
