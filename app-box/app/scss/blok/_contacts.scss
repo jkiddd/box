@@ -19,6 +19,7 @@
 .contacts__title {
   @include roboto(medium);
   font-size: 18px;
+  position: relative;
 }
 .contacts__text {
   @include roboto(Light);
@@ -31,3 +32,30 @@
 .contacts__address-mail {
   margin-top:15px;
 }
+.marker_icons::before {
+content: "";
+background: url('/img/map/map-marker.png') 0 no-repeat;
+width:17px;
+height: 25px;
+position: absolute;
+left: -30px;
+top: 5px;
+}
+.icons__tel::before {
+  content: "";  
+  background: url('/img/map/map-phone.png') 0 no-repeat;
+  width:17px;
+  height: 25px;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  }
+.icons__email::before {
+    content: ""; 
+    background: url('/img/map/map-mail.png') 0 no-repeat;
+    width:20px;
+    height: 25px;
+    position: absolute;
+    left: -30px;
+    top: 0px;
+  }
