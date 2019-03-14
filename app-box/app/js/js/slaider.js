@@ -3,24 +3,21 @@ $(document).ready(function(){
   {   slidesToShow: 1,
       slidesToScroll: 1,
       arrows:false,   
-      dots: false,
-      cssEase: 'linear',
-      asNavFor: '.slaider__mini',
-      initialSlide: 2,
-             
+      dots: false,   
+      asNavFor: '.slaider__mini',             
       }    
   );
   $('.slaider__mini').slick(
     {           
         slidesToShow: 4,
         slidesToScroll: 1,                
-        dots: false,
-        cssEase: 'linear',
+        dots: false,        
         asNavFor: '.slaider',
-        centerPadding:'50px',
+        
         focusOnSelect: true,
         centerMode: true,
-        centerPadding:'40px',           
+        // prevArrow: '<button class="slaider-arrow-prev"></button>',
+			  // nextArrow: '<button class="slaider-arrow-next"></button>',                  
         }    
     );
   });

@@ -954,10 +954,13 @@ ul {
   margin-bottom: 10px;
 }
 
+.slaider {
+  margin-bottom: 13px;
+}
+
 .manufacturing {
   margin-top: 90px;
   margin-bottom: 90px;
-  background: grey;
 }
 
 .manufacturing__wrap {
@@ -966,31 +969,43 @@ ul {
   display: flex;
 }
 
-.slaider, .slaider__mini {
+.slaider {
   width: 500px;
 }
 
-.slaider__dsc {
-  width: 535px;
-  height: 375px;
+.slaider__mini {
+  width: 500px;
 }
 
 .slaider__pic {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
+  width: 535px;
+  height: 375px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .slaider__inner-pc {
-  display: block;
-  width: 116px;
-  height: 80px;
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 .slaider__mini-pic {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
+  width: 90px;
+  height: 78px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 31px;
+  color: #ff9d00;
+}
+
+.slick-next {
+  right: 9px;
+}
+
+.slick-prev {
+  z-index: 2;
+  left: -1px;
 }
 /*# sourceMappingURL=main.css.map */
