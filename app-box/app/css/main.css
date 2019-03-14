@@ -1080,6 +1080,26 @@ ul {
   transition: 1s;
 }
 
+.feedback {
+  background-color: #f4f4f4;
+  padding-bottom: 70px;
+}
+
+.feedback__titel {
+  padding-top: 5px;
+  margin-bottom: 25px;
+}
+
+.feedback__slaider-wrap {
+  width: 372px;
+  height: 380px;
+  margin-left: 10px;
+}
+
+.feedback__slaider-pic {
+  width: 100%;
+}
+
 .footer {
   position: relative;
 }
