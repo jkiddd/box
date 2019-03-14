@@ -42,3 +42,20 @@
     z-index: 2;
     left: -1px;
   }
+.manufacturing__desc {
+  width: 400px;
+}
+.manufacturing__titel {
+    background: $color-title;
+    font-size: 28px;
+    color: white;
+    @include roboto(regular);
+    padding: 10px;
+  }
+.manufacturing__text {
+    padding: 25px 0 25px 25px;
+    text-align: justify;
+    font-size: 16px;
+    @include roboto(ligth);
+
+  }

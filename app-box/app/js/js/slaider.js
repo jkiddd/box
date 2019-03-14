@@ -4,7 +4,8 @@ $(document).ready(function(){
       slidesToScroll: 1,
       arrows:false,   
       dots: false,   
-      asNavFor: '.slaider__mini',             
+      asNavFor: '.slaider__mini',
+      cssEase: 'linear',             
       }    
   );
   $('.slaider__mini').slick(
@@ -13,7 +14,7 @@ $(document).ready(function(){
         slidesToScroll: 1,                
         dots: false,        
         asNavFor: '.slaider',
-        
+        cssEase: 'linear',
         focusOnSelect: true,
         centerMode: true,
         // prevArrow: '<button class="slaider-arrow-prev"></button>',

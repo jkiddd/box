@@ -1008,4 +1008,38 @@ ul {
   z-index: 2;
   left: -1px;
 }
+
+.manufacturing__desc {
+  width: 400px;
+}
+
+.manufacturing__titel {
+  background: #ff9d00;
+  font-size: 28px;
+  color: white;
+  font-family: 'robotoregular',Tohoma, sans-serif;
+  padding: 10px;
+}
+
+.manufacturing__text {
+  padding: 25px 0 25px 25px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer__text {
+  position: absolute;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
 /*# sourceMappingURL=main.css.map */
