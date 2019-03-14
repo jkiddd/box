@@ -23,9 +23,9 @@
   width: 175px;
   height: 70px;
   object-fit: contain;
- filter: grayscale(100%);
- &:hover {
-  filter: grayscale(0%);
-  transition: 1s;
+  filter: grayscale(100%);
+  &:hover {
+    filter: grayscale(0%);
+    transition: 1s;
  }
 }

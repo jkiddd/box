@@ -1,7 +1,6 @@
 .contacts {
   position: relative;
 }
-
 .contacts__desc {
   background: #fff;
   width: 315px;
@@ -33,13 +32,13 @@
   margin-top:15px;
 }
 .marker_icons::before {
-content: "";
-background: url('/img/map/map-marker.png') 0 no-repeat;
-width:17px;
-height: 25px;
-position: absolute;
-left: -30px;
-top: 5px;
+  content: "";
+  background: url('/img/map/map-marker.png') 0 no-repeat;
+  width:17px;
+  height: 25px;
+  position: absolute;
+  left: -30px;
+  top: 5px;
 }
 .icons__tel::before {
   content: "";  
@@ -51,11 +50,11 @@ top: 5px;
   top: 5px;
   }
 .icons__email::before {
-    content: ""; 
-    background: url('/img/map/map-mail.png') 0 no-repeat;
-    width:20px;
-    height: 25px;
-    position: absolute;
-    left: -30px;
-    top: 0px;
+  content: ""; 
+  background: url('/img/map/map-mail.png') 0 no-repeat;
+  width:20px;
+  height: 25px;
+  position: absolute;
+  left: -30px;
+  top: 0px;
   }
