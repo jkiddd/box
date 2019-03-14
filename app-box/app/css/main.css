@@ -1100,6 +1100,44 @@ ul {
   width: 100%;
 }
 
+.contacts {
+  position: relative;
+}
+
+.contacts__desc {
+  background: #fff;
+  width: 315px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 65px;
+  padding-right: 35px;
+  position: absolute;
+  top: 12%;
+  left: 18%;
+}
+
+.contacts__address-block {
+  margin-bottom: 30px;
+}
+
+.contacts__title {
+  font-family: 'robotomedium',Tohoma,sans-serif;
+  font-size: 18px;
+}
+
+.contacts__text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contacts__address-tel {
+  margin-bottom: 15px;
+}
+
+.contacts__address-mail {
+  margin-top: 15px;
+}
+
 .footer {
   position: relative;
 }
