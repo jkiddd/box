@@ -1,0 +1,31 @@
+.clients {
+  margin-bottom: 60px;
+}
+.clients__slaider-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.clients__slaider-item {
+  width: 212px;
+  height: 132px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  margin-bottom: 30px;
+}
+.clients__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+}
+.clients__pic {
+  width: 175px;
+  height: 70px;
+  object-fit: contain;
+ filter: grayscale(100%);
+ &:hover {
+  filter: grayscale(0%);
+  transition: 1s;
+ }
+}

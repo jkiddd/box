@@ -958,6 +958,10 @@ ul {
   margin-bottom: 13px;
 }
 
+.clients__title {
+  margin-bottom: 30px;
+}
+
 .manufacturing {
   margin-top: 90px;
   margin-bottom: 90px;
@@ -1025,6 +1029,55 @@ ul {
   padding: 25px 0 25px 25px;
   text-align: justify;
   font-size: 16px;
+}
+
+.clients {
+  margin-bottom: 60px;
+}
+
+.clients__slaider-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clients__slaider-item {
+  width: 212px;
+  height: 132px;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.clients__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.clients__pic {
+  width: 175px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.clients__pic:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 
 .footer {
