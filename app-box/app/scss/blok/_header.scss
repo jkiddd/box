@@ -50,11 +50,10 @@
     // margin-left: 30px;
     &::before {
         content: "";
-           width: 23px;
-           height: 23px;
-           background: url('../img/icons/tel.png') no-repeat; 
-           @include inline-block(middle);
-           margin-right: 5px;
-           
+        width: 23px;
+        height: 23px;
+        background: url('../img/icons/tel.png') no-repeat; 
+        @include inline-block(middle);
+        margin-right: 5px;           
     }
 }

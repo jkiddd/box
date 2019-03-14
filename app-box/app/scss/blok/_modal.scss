@@ -7,7 +7,6 @@
   width: 100%;
   height: 100%;
 }
-
 .popup__inner {
   width: 750px;
   position: fixed;
@@ -15,8 +14,6 @@
   top: 100px;
   transform: translateX(-50%);
 }
-
-
 .popup__title {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -28,7 +25,6 @@
   text-transform: uppercase;
   position: relative;
 }
-
 .close {
   position: absolute;
   right: -25px;
@@ -38,11 +34,9 @@
   opacity: 0.8;
   cursor: pointer;
 }
-
 .close:hover {
   opacity: 1;
 }
-
 .close:before,
 .close:after {
   position: absolute;
@@ -52,21 +46,17 @@
   width: 2px;
   background-color: #fff;
 }
-
 .close:before {
   transform: rotate(45deg);
 }
-
 .close:after {
   transform: rotate(-45deg);
 }
-
 .popup__desc {
   background: url('/img/foto/popup_bg.jpg') 0 no-repeat;
   background-size: cover;
   padding: 35px 88px 50px 88px;
 }
-
 .popup__text {
   color: #fff;
   font-size: 24px;
@@ -80,7 +70,6 @@
   text-align: center;
   margin-bottom: 15px;
 }
-
 .popup__form {
   text-align: center;
 }
