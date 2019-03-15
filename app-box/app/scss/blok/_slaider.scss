@@ -28,7 +28,8 @@
 .slaider__mini-pic {
   width: 90px;
   height: 78px;
-  object-fit: cover;    
+  object-fit: cover; 
+  filter: brightness(50%);  
 }  
 .slick-prev:before, .slick-next:before {
   font-size: 31px;

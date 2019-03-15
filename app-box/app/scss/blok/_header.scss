@@ -10,6 +10,13 @@
 .header__logo {
     width: 25%;
 }
+.logo {
+    background: url('/img/decor/logo.png') 0 no-repeat;
+    background-size: 100%;
+    width: 193px;
+    height: 60px;
+    display: block;
+}
 .header__logo-wrap {
     width: 195px;
 }
