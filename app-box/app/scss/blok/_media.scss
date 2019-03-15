@@ -131,6 +131,35 @@ margin-top: 30px;
 .clients__pic {
   width: 148px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contacts {
+  position: static;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.contacts__desc{
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+.marker_icons::before,.icons__tel::before,.icons__tel::before,.icons__email::before  {
+  display: none;
+}
+
 // конец стилей медия
 }
 
