@@ -100,11 +100,31 @@ height:37px;
 .box__wrapper {
   display: block;
 }
-// конец стилей медия
-}
 .offer__title {
   width: 100%;
 }
+.manufacturing {
+margin-top: 30px;
+}
+.manufacturing__wrap {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.slaider__wrap {
+  order: 2;
+}
+.manufacturing__desc {
+  order:1;
+  width: 100%;
+}
+.manufacturing__text {
+  text-align: center;
+}
+// конец стилей медия
+}
+
+
 @media screen and (max-width: 768px){
 
 

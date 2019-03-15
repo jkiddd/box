@@ -1293,10 +1293,36 @@ ul {
   .box__wrapper {
     display: block;
   }
-}
-
-.offer__title {
-  width: 100%;
+  .offer__title {
+    width: 100%;
+  }
+  .manufacturing {
+    margin-top: 30px;
+  }
+  .manufacturing__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .slaider__wrap {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .manufacturing__desc {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+  }
+  .manufacturing__text {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 992px) {

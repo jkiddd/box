@@ -16,9 +16,16 @@ $(document).ready(function(){
         asNavFor: '.slaider',
         cssEase: 'linear',
         focusOnSelect: true,
-        centerMode: true,
-        // prevArrow: '<button class="slaider-arrow-prev"></button>',
-			  // nextArrow: '<button class="slaider-arrow-next"></button>',                  
+        centerMode: true,      
+        responsive:[ {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        }
+     
+        ]                  
         }    
     );
   });
