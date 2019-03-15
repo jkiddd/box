@@ -5,7 +5,17 @@ $(document).ready(function(){
       dots: false,   
       cssEase: 'linear', 
       centerMode: true,
-      focusOnSelect: true,            
+      focusOnSelect: true,
+      responsive:[ {
+        breakpoint: 576,
+        settings: {
+          arrows:true, 
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      }
+   
+      ]                
       }    
   );
 
