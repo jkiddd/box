@@ -1108,8 +1108,6 @@ ul {
 
 .feedback__slaider-pic {
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .contacts {
@@ -1195,6 +1193,16 @@ ul {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+    padding: 0 3%;
+  }
+  .header__wrap {
+    padding-top: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -1373,13 +1381,6 @@ ul {
   }
   .marker_icons::before, .icons__tel::before, .icons__tel::before, .icons__email::before {
     display: none;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .container {
-    width: 100%;
-    padding: 0 3%;
   }
 }
 /*# sourceMappingURL=main.css.map */
