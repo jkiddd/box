@@ -1205,6 +1205,12 @@ ul {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .header__telephone {
+    font-size: 17px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .hidden__mobile {
     display: none;
