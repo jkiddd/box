@@ -1269,6 +1269,30 @@ ul {
     width: 80%;
     margin-bottom: 10px;
   }
+  .features {
+    padding-bottom: 30px;
+  }
+  .numbers {
+    display: block;
+  }
+  .numbers__blok {
+    margin-bottom: 25px;
+  }
+  .numbers__title {
+    font-size: 30px;
+  }
+  .numbers__text {
+    font-size: 14px;
+  }
+  .production {
+    display: block;
+  }
+  .production__block {
+    margin-bottom: 10px;
+  }
+  .box__wrapper {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 992px) {
