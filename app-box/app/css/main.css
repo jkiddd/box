@@ -1323,6 +1323,19 @@ ul {
   .manufacturing__text {
     text-align: center;
   }
+  .clients__slaider-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .clients__slaider-item {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+    margin-right: 10px;
+  }
+  .clients__pic {
+    width: 148px;
+  }
 }
 
 @media screen and (max-width: 992px) {
