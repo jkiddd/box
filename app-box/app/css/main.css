@@ -1108,6 +1108,8 @@ ul {
 
 .feedback__slaider-pic {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contacts {
@@ -1338,6 +1340,21 @@ ul {
   }
   .slaider {
     width: 350px;
+  }
+  .feedback__wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .feedback__slaider {
+    width: 285px;
+  }
+  .feedback__slaider-pic {
+    width: 266px;
+    height: 372px;
   }
   .contacts {
     position: static;
