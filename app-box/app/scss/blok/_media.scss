@@ -39,6 +39,42 @@ height:37px;
 .button::before{
   margin-right: 0;
 }
+
+.cardboard__wrap {
+  display: block;
+}
+.product {
+  text-align: center;
+}
+.product__title {
+  font-size: 22px;
+  color: $color-title;
+}
+.product__subtitle {
+  font-size: 18px;
+}
+.form__desc {
+  background: none;
+  padding: 0;
+  text-align: center;
+}
+.form__text {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+.text-big {
+  font-size: 15px;
+}
+.form {
+  display: block;
+  text-align: center;
+}
+.form__input-tel {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
 // конец стилей медия
 }
 @media screen and (max-width: 768px){
