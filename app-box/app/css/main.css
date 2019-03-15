@@ -1336,6 +1336,9 @@ ul {
   .clients__pic {
     width: 148px;
   }
+  .slaider {
+    width: 350px;
+  }
   .contacts {
     position: static;
     display: -webkit-box;

@@ -5,7 +5,17 @@ $(document).ready(function(){
       arrows:false,   
       dots: false,   
       asNavFor: '.slaider__mini',
-      cssEase: 'linear',             
+      cssEase: 'linear',
+      responsive:[ {
+        breakpoint: 576,
+        settings: {
+          arrows:true, 
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      }
+   
+      ]             
       }    
   );
   $('.slaider__mini').slick(
@@ -16,16 +26,8 @@ $(document).ready(function(){
         asNavFor: '.slaider',
         cssEase: 'linear',
         focusOnSelect: true,
-        centerMode: true,      
-        responsive:[ {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        }
-     
-        ]                  
+        centerMode: true,  
+                  
         }    
     );
   });
