@@ -2,13 +2,47 @@
 
 }
 @media screen and (max-width: 992px){
-  
+  .hidden__pc {
+    display: none;
+  }
   .container {
     width: 100%;
     padding: 0 3%;
   }
-  .header__wrap {
-    padding-top: 20px;
+  .header {
+    margin-top: 20px;
+}
+
+.header__telephone {
+  font-size: 18px;
+}
+.logo {
+  width: 155px;
+  height: 60px;  
+}
+.cardboard__img {
+  width: 301px;
+}
+.product {
+  text-align: center;
+}
+.product__title {
+  font-size: 34px;
+}
+.form__desc {
+  text-align: center;
+}
+.form__text {
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  flex-direction: column;
+  align-items: center;
+}
+.form__input-tel {
+  margin-bottom: 15px;
 }
 // конец стилей медия
 }
