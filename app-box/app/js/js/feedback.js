@@ -6,16 +6,34 @@ $(document).ready(function(){
       cssEase: 'linear', 
       centerMode: true,
       focusOnSelect: true,
-      responsive:[ {
+      responsive:[ 
+      {
         breakpoint: 576,
         settings: {
           arrows:true, 
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: false,
-        },
-      }
-   
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows:true, 
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          arrows:true, 
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+        }
+      },
       ]                
       }    
   );
