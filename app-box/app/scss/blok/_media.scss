@@ -105,12 +105,27 @@
 .marker_icons::before,.icons__tel::before,.icons__tel::before,.icons__email::before  {
   display: none;
 }
+// стилизация модального окна 
+.popup__inner {
+  width: 75%;
+}
+.popup__form {  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.poup__btn {
+  margin-bottom: 5px;
+}
+.popup__input-tel {
+  margin-right: 0;
+}
 
 // конец стилей медия
 }
-// конец стилий
-// конец стилий -2 
-// конец стилий -3
+
+
 @media screen and (max-width: 768px){
 
 .logo {
@@ -156,6 +171,27 @@
 .fadeInUp, .fadeInLeft,.fadeInRight{
   animation: none;
 }
+
+// стилизация модального окна
+.popup__title {
+  
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.popup__desc {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.popup__input-tel {
+  width: 70%;
+}
+
+.poup__btn {
+  margin-bottom: 5px;
+}
+
 // конец стилей медия
 }
 
@@ -326,6 +362,28 @@
   .fadeInUp, .fadeInLeft,.fadeInRight{
     animation: none;
   }
+// стилизация модального окна 
+.popup__title {
+  font-size: 18px;
+}
+.popup__text {
+  font-size: 20px;
+}
+.popup__text-tel {
+  font-size: 18px;
+ 
+}
+.popup__form {  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.poup__btn {
+  margin-bottom: 5px;
+}
+.popup__input-tel {
+  margin-right: 0;
+}
   // конец стилей медия
   }
   
