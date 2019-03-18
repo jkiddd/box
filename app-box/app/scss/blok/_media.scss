@@ -44,15 +44,110 @@
 .form__input-tel {
   margin-bottom: 15px;
 }
+
+.manufacturing__wrap {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.slaider__wrap {
+  order: 2;
+}
+.manufacturing__desc {
+  order:1;
+  width: 100%;
+}
+.manufacturing__text {
+  text-align: center;
+}
+.clients__slaider-list {
+  justify-content: center;
+}
+.clients__slaider-item {
+  flex-basis: 45%;
+  margin-right: 10px;
+}
+.clients__pic {
+  width: 148px;
+}
+.slaider {
+  width: 350px;
+}
+
+.feedback__wrapp {
+  display: flex;  
+  justify-content: center;
+}
+
+.feedback__slaider {
+  width: 285px;
+}
+.feedback__slaider-pic {
+  width:  266px;
+  height: 372px;
+}
+.contacts {
+  position: static;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.contacts__desc{
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
 // конец стилей медия
 }
 
 
 @media screen and (max-width: 768px){
-.header__telephone {
-  font-size: 17px;
+
+.logo {
+  width: 134px;
+  height: 58px;
 }
 
+.header__telephone {
+  display: flex;
+  flex-direction: column;
+}
+.header__phone {
+  margin-right: 15px;
+  @include roboto(bolt);
+  padding: 0;
+  border-left: none;
+}
+.numbers {
+  display: block; 
+}
+
+.numbers__blok { 
+  margin-bottom: 10px;
+}
+.production__block {
+  flex-basis: 49%;
+}
+.box__wrapper {
+  flex-direction: column; 
+}
+
+.offer__title {
+  width: 100%;
+}
+
+
+
+
+
+
+.fadeInUp, .fadeInLeft,.fadeInRight{
+  animation: none;
+}
 // конец стилей медия
 }
 
@@ -154,7 +249,7 @@
     margin-bottom: 10px;
   }
   .box__wrapper {
-    display: block;
+    flex-direction: column;
   }
   .offer__title {
     width: 100%;

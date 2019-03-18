@@ -6,15 +6,31 @@ $(document).ready(function(){
       dots: false,   
       asNavFor: '.slaider__mini',
       cssEase: 'linear',
-      responsive:[ {
+      responsive:[ 
+      {
         breakpoint: 576,
         settings: {
           arrows:true, 
           slidesToShow: 1,
           slidesToScroll: 1,
-        },
-      }
-   
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          arrows:true, 
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          arrows:true, 
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
       ]             
       }    
   );
