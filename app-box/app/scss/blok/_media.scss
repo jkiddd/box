@@ -217,7 +217,12 @@
   .marker_icons::before,.icons__tel::before,.icons__tel::before,.icons__email::before  {
     display: none;
   }
-  
+
+  //отключаем анимацию на мобильной версии 
+
+  .fadeInUp, .fadeInLeft,.fadeInRight{
+    animation: none;
+  }
   // конец стилей медия
   }
   
