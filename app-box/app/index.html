@@ -87,9 +87,9 @@
                     <div class="popup__text-tel">
                         Введите ваш номер телефона:
                     </div>
-                    <form action="#" class="popup__form">                    
-                        <input type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx">
-                        <button class="button button--no-icon poup__btn">Оставить заявку!</button>
+                    <form action="/mailer/smart.php" class="popup__form" method="POST" >                    
+                        <input  name="input__tel" type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx" required minlength="6" maxlength="6">
+                        <button  type="submit" class="button button--no-icon poup__btn">Оставить заявку!</button>
                         <div class="popup__text-small">*Минимальный заказ 500шт</div>
                     </form>
                 </div>
