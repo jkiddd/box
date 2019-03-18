@@ -1210,6 +1210,9 @@ ul {
     width: 155px;
     height: 60px;
   }
+  .numbers__title {
+    font-size: 27px;
+  }
   .cardboard__img {
     width: 301px;
   }
@@ -1308,6 +1311,9 @@ ul {
     text-align: center;
     width: 100%;
   }
+  .marker_icons::before, .icons__tel::before, .icons__tel::before, .icons__email::before {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1347,6 +1353,9 @@ ul {
   }
   .offer__title {
     width: 100%;
+  }
+  .marker_icons::before, .icons__tel::before, .icons__tel::before, .icons__email::before {
+    display: none;
   }
   .fadeInUp, .fadeInLeft, .fadeInRight {
     -webkit-animation: none;
