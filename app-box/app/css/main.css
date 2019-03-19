@@ -1176,6 +1176,11 @@ ul {
   top: 0px;
 }
 
+.maps__box {
+  width: 100%;
+  height: 550px;
+}
+
 .footer {
   position: relative;
 }
