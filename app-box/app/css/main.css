@@ -1038,6 +1038,13 @@ ul {
   font-size: 16px;
 }
 
+.slick-prev-left {
+  background: url("/img/icons/arrows/iconfinder_nav-arrow-left_383101.png") 0 no-repeat;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
 .clients {
   margin-bottom: 60px;
 }
