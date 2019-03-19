@@ -65,7 +65,7 @@
                                 </span>
                             </div>
                             <form action="#" class="form">
-                                <input type="tel" name="" id="" class="form__input-tel" placeholder="Введите номер телефона">
+                                <input type="tel" name="" id="" class="form__input-tel" placeholder="Введите номер телефона" required>
                                 <button type="submit" class="button button--no-icon">Оставить заявку!</button>
                             </form>
                             <small class="small__text">*Минимальный заказ 500шт</small>
@@ -88,7 +88,7 @@
                         Введите ваш номер телефона:
                     </div>
                     <form action="/mailer/smart.php" class="popup__form" method="POST" >                    
-                        <input  name="input__tel" type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx" required minlength="6" maxlength="6">
+                        <input  name="input__tel" type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx" required>
                         <button  type="submit" class="button button--no-icon poup__btn">Оставить заявку!</button>
                         <div class="popup__text-small">*Минимальный заказ 500шт</div>
                     </form>
@@ -276,7 +276,7 @@
                                     Введите ваш номер телефона:
                             </label>
                         <div class="form__inner-wrap">
-                                <input type="tel" name="" id="offer__check" class="form__input-tel form__input-tel--width " placeholder="+996(ХХХ) ХХХ-ХХ-ХХ">
+                                <input type="tel" name="" id="offer__check" class="form__input-tel form__input-tel--width " placeholder="+996(ХХХ) ХХХ-ХХ-ХХ" required>
                                 <div class="form__btn">
                                     <button class="button button--no-icon">Оставить заявку!</button>
                                 </div>
