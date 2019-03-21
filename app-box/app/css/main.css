@@ -546,6 +546,35 @@ ul {
   color: #fff;
 }
 
+.button__humberger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 20px;
+  display: none;
+}
+
+.button__line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 2px 0;
+  background-color: #000;
+}
+
 .cardboard {
   background: gray url("../img/foto/baground1.jpg") center no-repeat;
   background-size: cover;
@@ -1361,6 +1390,21 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    margin-top: 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .nav__humberger {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 15px;
+  }
+  .button__humberger {
+    display: block;
+  }
   .logo {
     width: 134px;
     height: 58px;
@@ -1429,6 +1473,7 @@ ul {
   }
   .header {
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   .header__wrap {
     padding: 0;
