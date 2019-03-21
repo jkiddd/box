@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.slaider').slick(
   {   slidesToShow: 1,
       slidesToScroll: 1,
-      arrows:false,   
+      arrows:false,            
       dots: false,   
       asNavFor: '.slaider__mini',
       cssEase: 'linear',
@@ -43,7 +43,7 @@ $(document).ready(function(){
         cssEase: 'linear',
         focusOnSelect: true,
         centerMode: true,  
-                  
+        // nextArrow:'<i class="slick-prev-left"></i>',          
         }    
     );
   });

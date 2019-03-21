@@ -15,7 +15,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container">
+            <div class="container">                   
                 <div class="header__wrap">
                     <div class="header__logo">
                         <div class="header__logo-wrap">
@@ -65,7 +65,7 @@
                                 </span>
                             </div>
                             <form action="#" class="form">
-                                <input type="tel" name="" id="" class="form__input-tel" placeholder="Введите номер телефона">
+                                <input type="tel" name="" id="" class="form__input-tel" placeholder="Введите номер телефона" required>
                                 <button type="submit" class="button button--no-icon">Оставить заявку!</button>
                             </form>
                             <small class="small__text">*Минимальный заказ 500шт</small>
@@ -88,7 +88,7 @@
                         Введите ваш номер телефона:
                     </div>
                     <form action="/mailer/smart.php" class="popup__form" method="POST" >                    
-                        <input  name="input__tel" type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx" required minlength="6" maxlength="6">
+                        <input  name="input__tel" type="tel" class="popup__input-tel" placeholder="+996 (xxx) xx-xx-xx" required>
                         <button  type="submit" class="button button--no-icon poup__btn">Оставить заявку!</button>
                         <div class="popup__text-small">*Минимальный заказ 500шт</div>
                     </form>
@@ -276,7 +276,7 @@
                                     Введите ваш номер телефона:
                             </label>
                         <div class="form__inner-wrap">
-                                <input type="tel" name="" id="offer__check" class="form__input-tel form__input-tel--width " placeholder="+996(ХХХ) ХХХ-ХХ-ХХ">
+                                <input type="tel" name="" id="offer__check" class="form__input-tel form__input-tel--width " placeholder="+996(ХХХ) ХХХ-ХХ-ХХ" required>
                                 <div class="form__btn">
                                     <button class="button button--no-icon">Оставить заявку!</button>
                                 </div>
@@ -470,6 +470,7 @@
         <section class="contacts">
             <div class="maps">
                     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae46dd6de2d9d7019123333f56d73b274299da082772ede145cde8eacd0d52df6&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=fals"></script>
+                <!-- <iframe class="maps__box" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae46dd6de2d9d7019123333f56d73b274299da082772ede145cde8eacd0d52df6&amp;source=constructor" frameborder="0"></iframe> -->
             </div>
             <div class="contacts__desc">
                 <div class="contacts__address-block">
@@ -509,6 +510,9 @@
     <script src="/slick-1.8.1/slick/slick.min.js"></script>
     <script src="/js/js/slaider.js"></script>
     <script src="/js/js/feedback.js"></script>
+
+
+   
 </body>
 </html>
 <!-- тест1 -->
