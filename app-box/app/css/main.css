@@ -562,6 +562,7 @@ ul {
   height: 20px;
   display: none;
   cursor: pointer;
+  outline: none;
 }
 
 .button__line {
