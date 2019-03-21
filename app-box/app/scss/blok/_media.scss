@@ -134,6 +134,7 @@
 .button__humberger {
   display: block;
 }
+
 .logo {
   width: 134px;
   height: 58px;
@@ -170,10 +171,6 @@
 .marker_icons::before,.icons__tel::before,.icons__tel::before,.icons__email::before  {
   display: none;
 }
-
-
-
-
 .fadeInUp, .fadeInLeft,.fadeInRight{
   animation: none;
 }
@@ -221,16 +218,17 @@
   display: block;
   width:36px;
   height:37px;
-  }
+  } 
   .header__telephone {
     display: flex;
     flex-direction: column;
   }
   .header__phone {
     font-size: 14px;
-    @include roboto(regular);
+    @include roboto(bold);
     padding: 0;
     border-left: none;
+    margin-right: 1px;
   }
   
   .header__bt {
@@ -392,5 +390,4 @@
 }
   // конец стилей медия
   }
-  
   

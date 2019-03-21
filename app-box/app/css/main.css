@@ -461,10 +461,6 @@ ul {
   display: block;
 }
 
-.header__logo-wrap {
-  width: 195px;
-}
-
 .header__img {
   max-width: 100%;
   display: block;
@@ -1496,9 +1492,11 @@ ul {
   }
   .header__phone {
     font-size: 14px;
-    font-family: 'robotoregular',Tohoma, sans-serif;
+    font-family: 'robotobold', Tohoma, sans-serif;
+    font-weight: bold;
     padding: 0;
     border-left: none;
+    margin-right: 1px;
   }
   .header__bt {
     padding: 6px 8px;
