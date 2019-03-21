@@ -561,6 +561,7 @@ ul {
   width: 30px;
   height: 20px;
   display: none;
+  cursor: pointer;
 }
 
 .button__line {
@@ -1391,6 +1392,9 @@ ul {
   }
   .nav {
     display: none;
+  }
+  .nav__activ {
+    display: block;
   }
   .nav__humberger {
     -ms-flex-item-align: center;

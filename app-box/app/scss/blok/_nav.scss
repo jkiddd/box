@@ -3,6 +3,7 @@
   padding-bottom: 20px;
   background-color: $footer-color;
   margin-bottom: 20px;
+  
 }
 .nav__list {
   display: flex;  
@@ -12,6 +13,5 @@
 .nav__link {
   text-transform: uppercase;
   @include roboto(bold);
-  color: #fff;
-  
+  color: #fff;  
 }
