@@ -1,0 +1,17 @@
+.nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $footer-color;
+  margin-bottom: 20px;
+}
+.nav__list {
+  display: flex;  
+  justify-content: space-around;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  @include roboto(bold);
+  color: #fff;
+  
+}

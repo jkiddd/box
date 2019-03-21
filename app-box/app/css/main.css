@@ -440,7 +440,6 @@ ul {
 }
 
 .header {
-  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -523,6 +522,28 @@ ul {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
+}
+
+.nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #1b1b1b;
+  margin-bottom: 20px;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  font-family: 'robotobold', Tohoma, sans-serif;
+  font-weight: bold;
+  color: #fff;
 }
 
 .cardboard {
@@ -1205,9 +1226,6 @@ ul {
     width: 100%;
     padding: 0 3%;
   }
-  .header {
-    margin-top: 20px;
-  }
   .header__telephone {
     font-size: 18px;
   }
@@ -1411,7 +1429,6 @@ ul {
   }
   .header {
     margin-bottom: 10px;
-    margin-top: 10px;
   }
   .header__wrap {
     padding: 0;
