@@ -14,42 +14,44 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside class="aside">                                 
-                <nav class="nav"> 
+        <aside class="aside">                                          
+                <nav class="nav">
+                    <div class="container">
+                            <span class="close--nav"></span>                                             
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#product" class="nav__link">
+                                        наша продукция
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#facturing" class="nav__link">
+                                        производство
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#clients" class="nav__link">
+                                        наши клиенты
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#feedback" class="nav__link">
+                                        отзывы
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#contact" class="nav__link">
+                                        контакты
+                                    </a>
+                                </li>
+                            </ul>
+                    </div> 
                         <!-- <div class="nav__humberger">                            
                                 <button class="button__humberger nav__humberger--bg  nav__humberger--center">
                                     <span class="button__line"></span>
                                     <span class="button__line"></span>
                                     <span class="button__line"></span>                    
                             </button>  -->
-                        <span class="close close--nav"></span>                                             
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="#product" class="nav__link">
-                                    наша продукция
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#facturing" class="nav__link">
-                                    производство
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#clients" class="nav__link">
-                                    наши клиенты
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#feedback" class="nav__link">
-                                    отзывы
-                                </a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#contact" class="nav__link">
-                                    контакты
-                                </a>
-                            </li>
-                        </ul>
                        
                     </nav>
         </aside> 
@@ -541,6 +543,7 @@
                 </div>
             </div>
         </section>
+    <!-- <div class="btn__top"> </div> -->
     </div>
     <footer class="footer">
         <div class="container">
@@ -549,6 +552,8 @@
             </div>
         </div>
     </footer>
+    
+    <!-- подключение скриптов -->
     <script src="/js/plagins/jquery-3.3.1.min.js"></script>
     <script src="/js/js/popup.js"></script>
     <script src="/js/plagins/wow.min.js"></script>
@@ -557,12 +562,13 @@
     <script src="/js/js/slaider.js"></script>
     <script src="/js/js/feedback.js"></script>
     <script src="/js/js/scroling.js"></script>
+    <script src="/js/js/btn-top.js"></script>
     <script>    
-  $(function(){
-    $('.button__humberger, .nav').on('click', function(){
-            $('.nav').toggleClass('nav__activ');             
-        });
-  });     
+    $(function(){
+        $('.button__humberger, .nav').on('click', function(){
+                $('.nav').toggleClass('nav__activ');             
+            });
+    });     
 // на закрытие в пустом окне 
     $(document).click(function(event) {
         if ($(event.target).closest(".nav__humberger").length ) return;

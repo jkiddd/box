@@ -1,5 +1,8 @@
 @media screen and (max-width: 1200px){
-
+  .close .close--nav{
+    position: static;
+    display: none;
+  }
 }
 @media screen and (max-width: 992px){
 .hidden__pc {
@@ -157,6 +160,35 @@
   right: 0px;
   top: 10px;
 }
+.close--nav {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.close--nav:hover {
+  opacity: 1;
+}
+.close--nav:before,
+.close--nav:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #fff;
+}
+.close--nav:before {
+  transform: rotate(45deg);
+}
+.close--nav:after {
+  transform: rotate(-45deg);
+}
+
+
 // .nav__humberger--center {
 //   margin: auto;
 // }
