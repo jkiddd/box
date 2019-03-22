@@ -586,6 +586,7 @@ ul {
   -webkit-transition: 200ms;
   -o-transition: 200ms;
   transition: 200ms;
+  z-index: 999;
 }
 
 .scrollup:hover {

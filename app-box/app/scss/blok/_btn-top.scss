@@ -9,6 +9,7 @@
   text-indent:-9999px;
   background: url('/img/icons/icon_top.png') no-repeat;
   transition: 200ms;
+  z-index: 999;
     &:hover {
       opacity: 0.5;
     }
