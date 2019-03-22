@@ -14,9 +14,14 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside class="aside">
-                                 
+        <aside class="aside">                                 
                 <nav class="nav"> 
+                        <div class="nav__humberger">                            
+                                <button class="button__humberger nav__humberger--bg  nav__humberger--center">
+                                    <span class="button__line"></span>
+                                    <span class="button__line"></span>
+                                    <span class="button__line"></span>                    
+                            </button> 
                         <span class="close close--nav"></span>                                             
                         <ul class="nav__list">
                             <li class="nav__item">
@@ -553,10 +558,18 @@
     <script src="/js/js/feedback.js"></script>
 
     <script>
-        $('.button__humberger').on('click', function(){
+    $('.button__humberger').on('click', function(){
             $('.nav').toggleClass('nav__activ');             
-        });   
-    </script>
-   
+        }); 
+    $('.close--nav').on('click', function(){
+            $('.nav').removeClass('nav__activ');             
+        });
+        // на закрытие в пустом окне 
+$(document).click(function(event) {
+    if ($(event.target).closest(".nav__humberger").length ) return;
+    $('.nav').removeClass('nav__activ');
+    event.stopPropagation();
+});
+    </script>   
 </body>
 </html>

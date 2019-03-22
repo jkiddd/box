@@ -1440,6 +1440,13 @@ ul {
     right: 0px;
     top: 10px;
   }
+  .nav__humberger--center {
+    margin: auto;
+  }
+  .nav__humberger--bg .button__line {
+    background-color: #fff;
+    text-align: center;
+  }
   .logo {
     width: 134px;
     height: 58px;
