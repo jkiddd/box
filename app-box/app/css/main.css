@@ -573,6 +573,25 @@ ul {
   background-color: #000;
 }
 
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  display: none;
+  text-indent: -9999px;
+  background: url("/img/icons/icon_top.png") no-repeat;
+  -webkit-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+.scrollup:hover {
+  opacity: 0.5;
+}
+
 .cardboard {
   background: gray url("../img/foto/baground1.jpg") center no-repeat;
   background-size: cover;
