@@ -15,51 +15,48 @@
 <body>
     <div class="wrapper">
         <aside class="aside">
-                <nav class="nav">
-                        <div class="container">
-                                <ul class="nav__list">
-                                    <li class="nav__item">
-                                        <a href="#" class="nav__link">
-                                            наша продукция
-                                        </a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#" class="nav__link">
-                                            производство
-                                        </a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#" class="nav__link">
-                                            наши клиенты
-                                        </a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#" class="nav__link">
-                                            отзывы
-                                        </a>
-                                    </li>
-                                    <li class="nav__item">
-                                        <a href="#" class="nav__link">
-                                            контакты
-                                        </a>
-                                    </li>
-                                </ul>
-                        </div> 
+                                 
+                <nav class="nav"> 
+                        <span class="close close--nav"></span>                                             
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    наша продукция
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    производство
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    наши клиенты
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    отзывы
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link">
+                                    контакты
+                                </a>
+                            </li>
+                        </ul>
+                       
                     </nav>
         </aside> 
         <header class="header">
-
-            <div class="container">
-                  
+            <div class="container">                  
                 <div class="header__wrap">
-                    <div class="nav__humberger">
-                            
-                                <button class="button__humberger">
-                                    <span class="button__line"></span>
-                                    <span class="button__line"></span>
-                                    <span class="button__line"></span>                    
-                                </button>
-                            
+                    <div class="nav__humberger">                            
+                            <button class="button__humberger">
+                                <span class="button__line"></span>
+                                <span class="button__line"></span>
+                                <span class="button__line"></span>                    
+                            </button>                            
                         </div>
                     <div class="header__logo">
                         <div class="header__logo-wrap">
@@ -556,10 +553,9 @@
     <script src="/js/js/feedback.js"></script>
 
     <script>
-        $('.button__humberger').on('click',function(){
-            $('.nav').toggleClass('nav__activ');  
-        });
-     
+        $('.button__humberger').on('click', function(){
+            $('.nav').toggleClass('nav__activ');             
+        });   
     </script>
    
 </body>
