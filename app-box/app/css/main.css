@@ -589,10 +589,6 @@ ul {
   z-index: 999;
 }
 
-.scrollup:hover {
-  opacity: 0.5;
-}
-
 .cardboard {
   background: gray url("../img/foto/baground1.jpg") center no-repeat;
   background-size: cover;
