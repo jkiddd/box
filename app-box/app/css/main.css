@@ -1395,18 +1395,19 @@ ul {
     position: absolute;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);
-    height: 500%;
+    height: 100%;
     -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%);
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
+    position: fixed;
   }
   .nav__activ {
     -webkit-transform: translateX(0%);
         -ms-transform: translateX(0%);
             transform: translateX(0%);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
   }
   .nav__list {
     -webkit-box-orient: vertical;
@@ -1439,13 +1440,6 @@ ul {
     z-index: 999;
     right: 0px;
     top: 10px;
-  }
-  .nav__humberger--center {
-    margin: auto;
-  }
-  .nav__humberger--bg .button__line {
-    background-color: #fff;
-    text-align: center;
   }
   .logo {
     width: 134px;

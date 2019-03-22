@@ -16,36 +16,36 @@
     <div class="wrapper">
         <aside class="aside">                                 
                 <nav class="nav"> 
-                        <div class="nav__humberger">                            
+                        <!-- <div class="nav__humberger">                            
                                 <button class="button__humberger nav__humberger--bg  nav__humberger--center">
                                     <span class="button__line"></span>
                                     <span class="button__line"></span>
                                     <span class="button__line"></span>                    
-                            </button> 
+                            </button>  -->
                         <span class="close close--nav"></span>                                             
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#" class="nav__link">
+                                <a href="#product" class="nav__link">
                                     наша продукция
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">
+                                <a href="#facturing" class="nav__link">
                                     производство
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">
+                                <a href="#clients" class="nav__link">
                                     наши клиенты
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">
+                                <a href="#feedback" class="nav__link">
                                     отзывы
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="#" class="nav__link">
+                                <a href="#contact" class="nav__link">
                                     контакты
                                 </a>
                             </li>
@@ -253,7 +253,7 @@
         </section>
         <section class="box">
             <div class="container">
-                <div class="title">
+                <div class="title" id="product">
                     наша Продукция
                 </div>
                 <div class="box__wrapper">
@@ -377,7 +377,7 @@
                             </div>
                     </div>
                     <div class="manufacturing__desc">
-                        <div class="manufacturing__titel">
+                        <div class="manufacturing__titel" id="facturing">
                             Производство
                         </div>
                         <div class="manufacturing__text">
@@ -391,7 +391,7 @@
         <section class="clients">
             <div class="container">
                     <div class="clients__title">
-                            <div class="title">
+                            <div class="title" id="clients">
                                 наши клиенты
                             </div>
                         </div>
@@ -488,7 +488,7 @@
         <section class="feedback">
             <div class="container">
                 <div class="feedback__titel">
-                    <div class="title">
+                    <div class="title" id="feedback">
                         отзывы о сотрудничестве
                     </div>  
                 </div>
@@ -514,7 +514,7 @@
               </div>
         </section>
         <section class="contacts">
-            <div class="maps">
+            <div class="maps" id="contact">
                     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae46dd6de2d9d7019123333f56d73b274299da082772ede145cde8eacd0d52df6&amp;width=100%25&amp;height=550&amp;lang=ru_RU&amp;scroll=fals"></script>
                 <!-- <iframe class="maps__box" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae46dd6de2d9d7019123333f56d73b274299da082772ede145cde8eacd0d52df6&amp;source=constructor" frameborder="0"></iframe> -->
             </div>
@@ -556,14 +556,13 @@
     <script src="/slick-1.8.1/slick/slick.min.js"></script>
     <script src="/js/js/slaider.js"></script>
     <script src="/js/js/feedback.js"></script>
-
-    <script>
-    $('.button__humberger').on('click', function(){
+    <script src="/js/js/scroling.js"></script>
+    <script>    
+  $(function(){
+    $('.button__humberger, .nav').on('click', function(){
             $('.nav').toggleClass('nav__activ');             
-        }); 
-    $('.close--nav').on('click', function(){
-            $('.nav').removeClass('nav__activ');             
         });
+  });     
 // на закрытие в пустом окне 
     $(document).click(function(event) {
         if ($(event.target).closest(".nav__humberger").length ) return;
