@@ -1,17 +1,16 @@
 .scrollup {
   width:40px;
   height:40px;
-  opacity:0.7;
+  opacity:0.4;
   position:fixed;
   bottom:50px;
   right:40px;
   display:none;
   text-indent:-9999px;
-  background: url('/img/icons/icon_top.png') no-repeat;
-  transition: 200ms;
+  background: url('/img/icons/icon_top.png') no-repeat;  
   z-index: 999;
-//     &:hover {
-//       opacity: 0.5;
-//     }
-// }
+    &:hover {
+      opacity: 0.7;
+    }
+
 }
